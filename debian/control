@@ -1,0 +1,12 @@
+Source: ros-foxy-data-buffer
+Section: misc
+Priority: optional
+Maintainer: Masaya Kataoka <ms.kataoka@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-ament-cmake, ros-foxy-rclcpp, ros-foxy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-foxy-data-buffer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-foxy-rclcpp, ros-foxy-ros-workspace
+Description: The data_buffer package
